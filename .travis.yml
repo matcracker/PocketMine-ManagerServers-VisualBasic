@@ -1,0 +1,6 @@
+language: csharp
+solution: PocketMine-ManagerServers.sln
+script:
+ xbuild /p:VbcToolExe=vbnc.exe PocketMine-ManagerServers.sln
+notification:
+ email: false
