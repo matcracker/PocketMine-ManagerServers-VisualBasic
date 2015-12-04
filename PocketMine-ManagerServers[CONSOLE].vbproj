@@ -92,22 +92,22 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\API\APIManager.vb" />
-    <Compile Include="src\API\Installer\InstallerAPI.vb" />
-    <Compile Include="src\API\Manager\EditorAPI.vb" />
-    <Compile Include="src\API\Manager\ServerManagerAPI.vb" />
-    <Compile Include="src\Settings\ServersChanger.vb" />
-    <Compile Include="src\Utility\Commands\BackupCommand.vb" />
-    <Compile Include="src\Utility\Commands\EditorCommand.vb" />
-    <Compile Include="src\Utility\Commands\LanguageCommand.vb" />
-    <Compile Include="src\Utility\Commands\RestartCommand.vb" />
-    <Compile Include="src\Utility\Commands\RestoreCommand.vb" />
-    <Compile Include="src\Utility\Commands\SetCommand.vb" />
-    <Compile Include="src\Utility\Commands\StartCommand.vb" />
-    <Compile Include="src\Utility\Commands\StopCommand.vb" />
-    <Compile Include="src\Utility\ConsoleCommand.vb" />
-    <Compile Include="src\Utility\DevMenu.vb" />
-    <Compile Include="src\Main.vb" />
+    <Compile Include="Console Edition\src\API\APIManager.vb" />
+    <Compile Include="Console Edition\src\API\Installer\InstallerAPI.vb" />
+    <Compile Include="Console Edition\src\API\Manager\EditorAPI.vb" />
+    <Compile Include="Console Edition\src\API\Manager\ServerManagerAPI.vb" />
+    <Compile Include="Console Edition\src\Settings\ServersChanger.vb" />
+    <Compile Include="Console Edition\src\Utility\Commands\BackupCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\Commands\EditorCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\Commands\LanguageCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\Commands\RestartCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\Commands\RestoreCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\Commands\SetCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\Commands\StartCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\Commands\StopCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\ConsoleCommand.vb" />
+    <Compile Include="Console Edition\src\Utility\DevMenu.vb" />
+    <Compile Include="Console Edition\src\Main.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -123,30 +123,30 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="src\Information\Informations.vb" />
-    <Compile Include="src\Installer\Downloader.vb" />
-    <Compile Include="src\Installer\Installator.vb" />
-    <Compile Include="src\Installer\ManagerInstaller.vb" />
-    <Compile Include="src\Loaders\LanguageLoader.vb" />
-    <Compile Include="src\Languages\LanguageReader\LanguageReader.vb" />
-    <Compile Include="src\Languages\LanguageReader\Lang\EnglishReader.vb" />
-    <Compile Include="src\Languages\LanguageReader\Lang\ItalianReader.vb" />
-    <Compile Include="src\Languages\Lang\English.vb" />
-    <Compile Include="src\Languages\LanguagesSelector.vb" />
-    <Compile Include="src\Languages\Lang\Italian.vb" />
-    <Compile Include="src\Loaders\Loader.vb" />
-    <Compile Include="src\Manager\Editing\Editor.vb" />
-    <Compile Include="src\Loaders\CompleterLoader.vb" />
-    <Compile Include="src\Manager\Manager.vb" />
-    <Compile Include="src\Manager\Opener.vb" />
-    <Compile Include="src\Manager\Editing\Performances.vb" />
-    <Compile Include="src\Manager\Editing\Properties.vb" />
-    <Compile Include="src\Manager\Rescuer\Backup.vb" />
-    <Compile Include="src\Manager\Rescuer\Rescuer.vb" />
-    <Compile Include="src\Manager\Rescuer\Restore.vb" />
-    <Compile Include="src\Manager\Restarter\Restarter.vb" />
-    <Compile Include="src\Settings\Resetter.vb" />
-    <Compile Include="src\Settings\Settings.vb" />
+    <Compile Include="Console Edition\src\Information\Informations.vb" />
+    <Compile Include="Console Edition\src\Installer\Downloader.vb" />
+    <Compile Include="Console Edition\src\Installer\Installator.vb" />
+    <Compile Include="Console Edition\src\Installer\ManagerInstaller.vb" />
+    <Compile Include="Console Edition\src\Loaders\LanguageLoader.vb" />
+    <Compile Include="Console Edition\src\Languages\LanguageReader\LanguageReader.vb" />
+    <Compile Include="Console Edition\src\Languages\LanguageReader\Lang\EnglishReader.vb" />
+    <Compile Include="Console Edition\src\Languages\LanguageReader\Lang\ItalianReader.vb" />
+    <Compile Include="Console Edition\src\Languages\Lang\English.vb" />
+    <Compile Include="Console Edition\src\Languages\LanguagesSelector.vb" />
+    <Compile Include="Console Edition\src\Languages\Lang\Italian.vb" />
+    <Compile Include="Console Edition\src\Loaders\Loader.vb" />
+    <Compile Include="Console Edition\src\Manager\Editing\Editor.vb" />
+    <Compile Include="Console Edition\src\Loaders\CompleterLoader.vb" />
+    <Compile Include="Console Edition\src\Manager\Manager.vb" />
+    <Compile Include="Console Edition\src\Manager\Opener.vb" />
+    <Compile Include="Console Edition\src\Manager\Editing\Performances.vb" />
+    <Compile Include="Console Edition\src\Manager\Editing\Properties.vb" />
+    <Compile Include="Console Edition\src\Manager\Rescuer\Backup.vb" />
+    <Compile Include="Console Edition\src\Manager\Rescuer\Rescuer.vb" />
+    <Compile Include="Console Edition\src\Manager\Rescuer\Restore.vb" />
+    <Compile Include="Console Edition\src\Manager\Restarter\Restarter.vb" />
+    <Compile Include="Console Edition\src\Settings\Resetter.vb" />
+    <Compile Include="Console Edition\src\Settings\Settings.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -193,7 +193,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\Libraries\Ionic.Zip.dll" />
+    <Content Include="Console Edition\src\Libraries\Ionic.Zip.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
