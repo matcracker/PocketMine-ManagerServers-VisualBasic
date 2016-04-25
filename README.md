@@ -1,4 +1,5 @@
-#PocketMine-ManagerServers
+#PocketMine-ManagerServers [**Unmaintained**]
+**You can find new release of software [here](https://github.com/matcracker/PocketMine-ManagerServers-Java). It's made in Java and more clear unlike this project!**
 
 [![on Travis-CI](https://travis-ci.org/matcracker/PocketMine-ManagerServers.svg)](https://travis-ci.org/matcracker/PocketMine-ManagerServers)
 [![Join the chat at https://gitter.im/matcracker/PocketMine-ManagerServers](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/matcracker/PocketMine-ManagerServers?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
